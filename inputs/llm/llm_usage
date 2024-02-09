@@ -26,23 +26,26 @@ This modification should result in a legend without a title while retaining the 
 
 ################################################################################################
 
-Me:
-Write more directly and concisely: The European Union implemented the EBA or 'Everything But Arms' initiative in 2001. The scheme provided tariff-and-quota-free access to the European market for 49 of the world's least developed countries (LDCs). The program aimed to demonstrate Europe's commitment to global leadership by boosting development in LDCs through exports [@faber2009everything]. The EBA removed tariffs from imports on all things except arms from LDC countries. EBA has had a positive impact on Asian LDCs [@gradeva2010role], with exports to the EU increasing significantly. In fact, existing literature highlights that all LDCs have benefited from EBA, to some extent. However, current studies fail to show the extent to which Europe has come to rely on LDCs for cheap imports, particularly apparel. This study aims to fill this gap by asking: Do LDCs benefit more from EBA, or does Europe gain more from cheap apparel imports?
+rewrite this concisely: In 2001, the European Union launched the 'Everything But Arms' (EBA) initiative, granting tariff-and-quota-free access to the European market for 47 of the world's least developed countries (LDCs). The program aimed to showcase Europe's commitment to global leadership by fostering development in LDCs through increased exports [@faber2009everything]. EBA eliminated tariffs on imports from LDCs, excluding arms. Notably, EBA positively impacted Asian LDCs, leading to a significant rise in exports to the EU [@gradeva2010role]. While existing literature acknowledges the overall benefit for LDCs, studies fail to quantify whether this boost in export can be attributed to EBA or if some factors played a role in export shift. This paper looks to fill this gap by asking whether it is the EBA or factors like global demand, trade liberalization, and factor endowments that are the real drivers behind the shift in trade for LDCs.
 
-European countries rely heavily on apparel imports. In particular, Germany imports 95% of its apparel for consumption, while France, Italy, and Spain import 85%, 65%, and 55% of apparel, respectively [@gereffi2010global]. EBA was initially hailed as a success story. Over time, studies have found that LDCs end up competing with one another for trade contracts, driving down the price of clothing, with EU countries benefiting from it. Furthermore, this scheme has been dubbed as "more political than developmental" in one study [@page2002new]. Europe's preference for importing clothing is evident when the escalation of the Rohingya crisis and deteriorating human rights conditions in Myanmar did not lead to the withdrawal of trade preferences from the country [@pennisi2023everything]. However, this does not necessarily imply that Europe has come to rely on apparel imports, as it could be the case that the European clothing industry simply divested in apparel, hindering LDCs' ability to compete in the European market.
+European nations heavily depend on apparel imports; for instance, Germany imports 95 percent of its apparel, while France, Italy, and Spain import 85 percent, 65 percent, and 55 percent, respectively [@gereffi2010global]. Initially praised as a success, EBA has raised concerns over LDCs competing for trade contracts, leading to decreased clothing prices that benefit EU countries. Some studies label the scheme as "more political than developmental" [@page2002new]. Europe's preference for importing clothing becomes evident as trade preferences with Myanmar remained unaffected despite the Rohingya crisis and deteriorating human rights conditions [@pennisi2023everything]. All this highlights European dependence on apparel import played a key role in high export volumes in LDCs.
 
-The paper uses graphs and figures to highlight the development in the export industry in LDCs since the advent of EBA and then delves into whether Europe is ultimately the beneficiary of this trade balance. The investigation finds that while it is true that LDCs, in particular, Asian LDCs, have seen increased levels of exports, it fails to conclude whether Europe necessarily relies on them for apparel imports.
+This paper uses @RAND's analysis on preferential market access with a case study in Bangladesh to form a basis for establishing how levels of export evolved since the advent of EBA for LDCs. The original paper uses a case study in Bangladesh to showcase how utilizing internationally sourced textiles as an input for exports in LDCs can lead to increased firm-level revenue growth.
 
-The paper starts with a discussion about the datasets that will be used throughout the paper. The following section contains the Results section, which will highlight all the graphs and tables used throughout the paper. Lastly, the Discussion section will contain the lessons that can be learned from this paper and how the findings of the paper translate to the real world. Finally, the paper will end with a Conclusion section and a discussion on the next iteration of the paper.
+Using graphs and figures, this paper establishes how LDCs were able to capitalize on the EBA scheme and subsequently experience an export boom. However, the paper points out how factors like trade liberalization, factor endowments, and global demand had a hand in export boost. Overall, this investigation concludes that while EBA did help LDCs increase export levels, it is not the primary reason behind this phenomenon; there are other crucial factors that may play a role in this. This finding is a key development and helps to establish that for LDCs to benefit from free trade, factors like global demand and trade liberalization must also play a key role.
 
-ChatGPT:
-In 2001, the European Union launched the 'Everything But Arms' (EBA) initiative, granting tariff-and-quota-free access to the European market for 49 of the world's least developed countries (LDCs). The program aimed to showcase Europe's commitment to global leadership by fostering development in LDCs through increased exports [@faber2009everything]. EBA eliminated tariffs on imports from LDCs, excluding arms. Notably, EBA positively impacted Asian LDCs, leading to a significant rise in exports to the EU [@gradeva2010role]. While existing literature acknowledges overall benefits for LDCs, studies fail to quantify Europe's dependence on LDCs for cost-effective imports, especially in apparel. This study addresses this gap by investigating whether LDCs benefit more from EBA or if Europe gains more from cheap apparel imports.
+The paper initiates with a discussion on the data sets used, followed by the Results section highlighting graphs and tables. The Results section highlights how exports went up after EBA. The subsequent Discussion section delves into factors that played a role in how the general trade level has gone up for all countries due to some key factors. Finally, the Conclusion section wraps up the paper with a discussion on the next iteration.
 
-European nations heavily depend on apparel imports; for instance, Germany imports 95% of its apparel, while France, Italy, and Spain import 85%, 65%, and 55%, respectively [@gereffi2010global]. Initially praised as a success, EBA has raised concerns over LDCs competing for trade contracts, leading to decreased clothing prices that benefit EU countries. Some studies label the scheme as "more political than developmental" [@page2002new]. Europe's preference for importing clothing becomes evident as trade preferences with Myanmar remained unaffected despite the Rohingya crisis and deteriorating human rights conditions [@pennisi2023everything]. However, this doesn't necessarily indicate Europe's reliance on apparel imports; it could be the European clothing industry divesting in apparel, hindering LDCs' competitiveness in the European market.
+ChatGPT
+In 2001, the European Union launched the 'Everything But Arms' (EBA) initiative, providing tariff-and-quota-free access to its market for 47 of the world's least developed countries (LDCs), aiming to promote development through increased exports [@faber2009everything]. EBA excluded tariffs on LDC imports, except for arms, notably boosting exports from Asian LDCs to the EU [@gradeva2010role]. While recognized for benefiting LDCs, existing studies do not conclusively attribute the export boost to EBA, prompting this paper to investigate whether EBA or factors like global demand, trade liberalization, and factor endowments drove the trade shift.
 
-Using graphs and figures, this paper highlights the development in LDCs' export industry since EBA's introduction, examining whether Europe is the ultimate beneficiary of this trade balance. The investigation reveals increased exports for LDCs, especially in Asia; however, it doesn't definitively establish Europe's reliance on them for apparel imports.
+European nations heavily rely on apparel imports; for instance, Germany imports 95 percent of its apparel, while France, Italy, and Spain import 85 percent, 65 percent, and 55 percent, respectively [@gereffi2010global]. Initially lauded, EBA has raised concerns over LDCs competing for trade contracts, causing decreased clothing prices benefiting EU countries. Some studies label the scheme as "more political than developmental" [@page2002new]. European dependence on apparel imports is evident as trade preferences with Myanmar remained unaffected despite crises [@pennisi2023everything]. This highlights the role of European apparel imports in driving high export volumes in LDCs.
 
-The paper initiates with a discussion on the datasets used, followed by the Results section highlighting graphs and tables. The Discussion section delves into lessons learned and real-world implications. Finally, the Conclusion section wraps up the paper with a discussion on the next iteration.
+This paper uses @RAND's analysis on preferential market access, focusing on a Bangladesh case study, to establish how LDC exports evolved since EBA's introduction. The original paper highlights how using internationally sourced textiles for LDC exports leads to increased firm-level revenue growth.
+
+Utilizing graphs and figures, this paper demonstrates how LDCs capitalized on the EBA scheme, resulting in an export boom. However, it acknowledges that factors like trade liberalization, factor endowments, and global demand also influenced the export boost. The investigation concludes that while EBA contributed to increased LDC exports, it is not the primary driver; other crucial factors play a role. This finding underscores the importance of global demand and trade liberalization for LDCs to benefit from free trade.
+
+The paper begins with a discussion on the data sets used, followed by a Results section showcasing export increases after EBA. The subsequent Discussion section explores factors contributing to the overall trade level rise for all countries. Finally, the Conclusion section wraps up the paper with a discussion on the next iteration.
 
 ##############################################################################################################
 
@@ -76,3 +79,157 @@ Export Disparities: Woven vs. Knitted Materials:
 Woven and Knit Apparel Trends in Cambodia and Nepal:
 
 @fig-4 and @fig-5 extend the framework in @fig-3, focusing on Cambodia and Nepal, respectively. Similarities include close to 100% utilization rates for both woven and knit apparel imports from 2011 onwards. Contrasting trends are evident, such as Cambodia consistently maintaining near-100% utilization for woven material, unlike Bangladesh and Nepal. Nepal and Bangladesh share a shift in woven apparel around 2010-2011, more pronounced in Bangladesh, while Cambodia experiences a shift in knit apparel imports around 2010-11.
+
+##################################### Code for cleaning the data ########################################################
+refactor this code: make sure the output is same: eu_clean <- Euro %>% select(-1)
+  label(Euro$DECLARANT_LAB)<-"Importer"
+  label(Euro$PARTNER_LAB)<-"Exporter"
+  label(Euro$PRODUCT)<-"Product HS Code"
+  label(Euro$PRODUCT_LAB)<-"Product description"
+  label(Euro$STAT_REGIME_LAB)<-"Processing type"
+  label(Euro$ELIGIBILITY_LAB)<-"Preference eligibility"
+  label(Euro$IMPORT_REGIME_LAB)<-"Preferences product was imported under"
+  label(Euro$year)<-"Year of transaction"
+  label(Euro$value)<-"Value of transaction"
+
+
+eu_clean_<-eu_clean[which(eu_clean$DECLARANT_LAB!="EU total" ),]
+eu_clean<-eu_clean%>%filter(DECLARANT_LAB!="EU MEMBER STATES- EVOLUTIVE (EU15 UNTIL 30/04/2004, EU25 UNTIL 31/12/2006, EU27 UNTIL 30/06/2013, EU 28 SINCE 01/07/2013)")
+
+eu_clean$value<-eu_clean$value/1
+eu_clean$group_id <- eu_clean %>% group_indices(PARTNER_LAB, PRODUCT, DECLARANT_LAB,year)
+eu_clean$exp_year <- eu_clean %>% group_indices(PARTNER_LAB,  year)
+gsp_only<-eu_clean[which(eu_clean$IMPORT_REGIME_LAB=="GSP ZERO" | eu_clean$IMPORT_REGIME_LAB=="GSP NON ZERO"),]
+gsp_only$gsp_value<-gsp_only$value
+
+total<-aggregate(value~group_id+PARTNER_LAB+PRODUCT+year+DECLARANT_LAB, data=eu_clean, FUN=sum)
+total_gsp<-aggregate(gsp_value~group_id, data=gsp_only, FUN=sum)
+util<-merge(total, total_gsp, by=c("group_id"), all=FALSE, all.x=TRUE)
+
+util$gsp_value[is.na(util$gsp_value)]<-0
+util$frac<-util$gsp_value/util$value
+util<-util[which(util$value!=0),]
+
+util$post[util$year>=2011]<-1
+util$post[is.na(util$post)]<-0
+
+util$woven[util$PRODUCT>=620000]<-1
+util$woven[is.na(util$woven)]<-0
+
+ldc_data <-util  %>% group_by(year) %>% summarise(util=mean(frac), var=sd(frac))
+ChatGPT
+Certainly! Here's a refactored version of the code:
+
+R
+Copy code
+library(dplyr)
+library(haven)
+
+# Rename columns using label function
+Euro <- Euro %>%
+  select(-1) %>%
+  label(DECLARANT_LAB = "Importer",
+        PARTNER_LAB = "Exporter",
+        PRODUCT = "Product HS Code",
+        PRODUCT_LAB = "Product description",
+        STAT_REGIME_LAB = "Processing type",
+        ELIGIBILITY_LAB = "Preference eligibility",
+        IMPORT_REGIME_LAB = "Preferences product was imported under",
+        year = "Year of transaction",
+        value = "Value of transaction")
+
+# Filter out unwanted rows
+eu_clean <- Euro %>%
+  filter(DECLARANT_LAB != "EU total" &
+         DECLARANT_LAB != "EU MEMBER STATES- EVOLUTIVE (EU15 UNTIL 30/04/2004, EU25 UNTIL 31/12/2006, EU27 UNTIL 30/06/2013, EU 28 SINCE 01/07/2013)")
+
+# Modify value column
+eu_clean$value <- eu_clean$value / 1
+
+# Create additional columns
+eu_clean$group_id <- group_indices(eu_clean, PARTNER_LAB, PRODUCT, DECLARANT_LAB, year)
+eu_clean$exp_year <- group_indices(eu_clean, PARTNER_LAB, year)
+
+# Filter rows based on condition
+gsp_only <- eu_clean %>%
+  filter(IMPORT_REGIME_LAB %in% c("GSP ZERO", "GSP NON ZERO")) %>%
+  mutate(gsp_value = value)
+
+# Perform aggregations
+total <- eu_clean %>%
+  group_by(group_id, PARTNER_LAB, PRODUCT, year, DECLARANT_LAB) %>%
+  summarise(value = sum(value))
+
+total_gsp <- gsp_only %>%
+  group_by(group_id) %>%
+  summarise(gsp_value = sum(gsp_value))
+
+# Merge and handle missing values
+util <- merge(total, total_gsp, by = "group_id", all = FALSE, all.x = TRUE) %>%
+  mutate(gsp_value = ifelse(is.na(gsp_value), 0, gsp_value),
+         frac = gsp_value / value) %>%
+  filter(value != 0)
+
+# Additional conditions and calculations
+util$post <- ifelse(util$year >= 2011, 1, 0)
+util$woven <- ifelse(util$PRODUCT >= 620000, 1, 0)
+util$woven[is.na(util$woven)] <- 0
+
+# Summarize data
+ldc_data <- util %>%
+  group_by(year) %>%
+  summarise(util = mean(frac), var = sd(frac))
+This refactoring maintains the functionality of the original code while making it more readable and concise.
+
+User
+refactor this code: bgd<-util |>
+  filter(PARTNER_LAB=="BANGLADESH") |>
+  group_by(year, woven) |>
+  summarise(gsp_value=sum(gsp_value), value=sum(value))|>
+  mutate(frac=gsp_value/value)
+ChatGPT
+Certainly! Here's a refactored version of the code using the pipe operator (%>%):
+
+R
+Copy code
+bgd <- util %>%
+  filter(PARTNER_LAB == "BANGLADESH") %>%
+  group_by(year, woven) %>%
+  summarise(gsp_value = sum(gsp_value), value = sum(value)) %>%
+  mutate(frac = gsp_value / value)
+This refactoring maintains the functionality of the original code while making it more concise and easier to read. The pipe operator helps in chaining together operations, making the code more streamlined.
+
+User
+do something diffferent
+Which response do you prefer?
+Your choice will help make ChatGPT better.
+
+ChatGPT
+Response 1
+Certainly! If you're looking for a different approach, you can use the dplyr functions within a single chain without the pipe operator. Here's an alternative version:
+
+R
+Copy code
+bgd <- util %>%
+  filter(PARTNER_LAB == "BANGLADESH") %>%
+  summarise(gsp_value = sum(gsp_value), value = sum(value)) %>%
+  mutate(frac = gsp_value / value) %>%
+  group_by(year, woven) %>%
+  summarise(gsp_value = sum(gsp_value), value = sum(value), frac = mean(frac))
+In this version, I moved the grouping and summarization after the initial filtering and calculation of frac. This can be more efficient in some cases, depending on the size of your dataset and the specific operations being performed.
+
+
+ChatGPT
+Response 2
+Sure! Instead of using the pipe operator, let's rewrite the code using the dplyr function chaining approach:
+
+R
+Copy code
+bgd <- util %>%
+  filter(PARTNER_LAB == "BANGLADESH") %>%
+  group_by(year, woven) %>%
+  summarise(gsp_value = sum(gsp_value), value = sum(value)) %>%
+  mutate(frac = gsp_value / value)
+This version achieves the same result as the original code but without using the pipe operator. Both approaches are valid and achieve the same result; it's just a matter of preference or coding style.
+
+
