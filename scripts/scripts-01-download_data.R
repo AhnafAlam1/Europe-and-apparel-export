@@ -14,11 +14,11 @@ library(knitr)
 
 #### Download data ####
 
-### Downloading market share dataset ####
+df <- file.choose()
+comtrade <- read_csv(df)
+
 f <- file.choose()
 market_share <- read_csv(f)
-
-#### Downloading Eurostat dataset ####
 
 k <- file.choose()
 euro_data <- read_csv(k)
@@ -27,6 +27,11 @@ euro_data <- read_csv(k)
 ## folder on Github. 
 
 #### Save data ####
+
+write_csv(
+  x = comtrade,
+  file = "inputs/data/comtrade.csv"
+)
 
 write_csv(
   x = market_share,
