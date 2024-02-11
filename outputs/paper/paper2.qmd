@@ -1,0 +1,28 @@
+---
+title: "Investigating the Impact of EBA on Export Surges in Least Developed Countries"
+author: "Ahnaf Alam"
+format: pdf
+format:
+  pdf:
+    toc: true
+    number-sections: true
+date: today
+date-format: long
+bibliography: citation.bib
+classoption: abstract 
+abstract: | 
+  The study aims to examine the impact of the Everything But Arms (EBA) policy on trade, with a specific focus on exports in the least developed countries (LDCs). Utilizing data from @RAND, the research confirms that exports, particularly in the apparel sector, have increased since the policy's initiation in 2001. Notably, the paper highlights that LDCs' apparel exports have not only risen to European countries but also to all advanced economies. From this observation, it is inferred that external factors such as trade liberalization, global demand, and factor endowments contribute to the growth in exports. Consequently, attributing the export surge in LDCs solely to the EBA policy may not be sufficient. However, the study's limitation lies in the absence of regression analysis, preventing a conclusive determination of whether factors like global demand and factor endowments are the exclusive drivers of the trade shock.
+
+---
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this 
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
