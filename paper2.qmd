@@ -8,7 +8,7 @@ format:
 date: today
 date-format: long
 bibliography: cite.bib
-thanks: "The code and data is available at https://github.com/AhnafAlam1/Europe-and-apparel-export and replicated files are available at https://doi.org/10.1257/pol.20200257"
+thanks: "The code and data is available at https://github.com/AhnafAlam1/Europe-and-apparel-export and replicated files are available at https://www.socialsciencereproduction.org/reproductions/8b22209f-2847-4ed8-ac83-2222520c6b5a/index"
 classoption: abstract
 abstract: | 
   Since the inception of the Everything But Arms (EBA) trade scheme, Least Developed Countries (LDCs) have experienced a surge in exports, particularly in the apparel sector. However, existing studies do not conclusively show whether this export boom can only be attributed to the EBA or if there are other underlying reasons. This paper aims to address this gap by examining the impacts of trade liberalization, factor endowments, and global demand on the export shock. The study confirms that exports increased with the implementation of the EBA scheme;it also acknowledges that additional factors played a crucial role in this export expansion. The paper has  policy-making implications, suggesting that the elimination of tariffs alone may be insufficient in stimulating exports in developing nations and emphasizes the importance of addressing various external factors that plays a role in export boom.
@@ -225,7 +225,7 @@ print(p3)
 
 ## EBA Impact on LDC Exports
 
-@fig-2 replicates Figure 1, illustrating the EBA utilization rate (2001-2018). This rate signifies the proportion of apparel imports from LDCs entering Europe under EBA. Despite a generally increasing trend, a 20 percent uptick occurred in 2010-2011 [@EU-EXTRA], due to EBA policy changes relaxing local fabric requirements.
+@fig-2 replicates Figure 1 in the original paper, illustrating the EBA utilization rate (2001-2018). This rate signifies the proportion of apparel imports from LDCs entering Europe under EBA. Despite a generally increasing trend, a 20 percent uptick occurred in 2010-2011 [@EU-EXTRA], due to EBA policy changes relaxing local fabric requirements.
 
 ## China's Apparel Export Dominance
 
@@ -233,7 +233,7 @@ print(p3)
 
 ## Export Disparities: Woven vs. Knitted Materials
 
-@fig-3, replicating Figure 4, depicts Bangladeshi apparel export utilization rates (2001-2018). The rate represents the ratio of EU imports under EBA to total EU imports from Bangladesh, irrespective of EBA. While knit apparel maintains a near 100 percent utilization rate, woven apparel saw a shift from roughly 20 percent in 2001 to nearly 100 percent by end-2018, with a notable increase in 2010-2011.
+@fig-3, replicating Figure 4 of the original paper, depicts Bangladeshi apparel export utilization rates (2001-2018). The rate represents the ratio of EU imports under EBA to total EU imports from Bangladesh, irrespective of EBA. While knit apparel maintains a near 100 percent utilization rate, woven apparel saw a shift from roughly 20 percent in 2001 to nearly 100 percent by end-2018, with a notable increase in 2010-2011.
 
 @fig-4 and @fig-5 extends the graphical framework in @fig-3, focusing on Cambodia and Nepal, respectively. Similarities include close to 100 percent utilization rates for both woven and knit apparel imports from 2011 onwards. Contrasting trends are evident, such as Cambodia consistently maintaining near-100 percent utilization for woven material, unlike Bangladesh and Nepal. Nepal and Bangladesh share a shift in woven apparel around 2010-2011, more pronounced in Bangladesh, while Cambodia experiences a shift in knit apparel imports around 2010-11.
 

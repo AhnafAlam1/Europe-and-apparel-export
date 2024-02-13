@@ -10,8 +10,8 @@ The original paper can be found [here](https://www-aeaweb-org.myaccess.library.u
 
 # Guide
 
-The raw data set can found under the `data` file under input folder, while cleaned data can be retreived from under `data` in outputs folder.
+The raw data set can found under the `data` file under input folder, while cleaned data can be retrieved from under `data` in outputs folder.
 
-The `paper` in the outputs folder contains the pdf version of the paper and also includes `cite.bib` and `paper2.qmd` file. 
+The pdf and .qmd version of the paper, `paper2.pdf` & `paper2.qmd` can be found in the directory.  
 
 
