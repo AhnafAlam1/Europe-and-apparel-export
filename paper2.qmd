@@ -1,5 +1,5 @@
 ---
-title: "Investigating the Impact of EBA on Exports in Least Developed Countries"
+title: "Unveiling the EBA's Trade Triumph: Unmasking the Drivers of Export Boom in Least Developed Countries"
 author: "Ahnaf Alam"
 format:
   pdf:
@@ -8,10 +8,10 @@ format:
 date: today
 date-format: long
 bibliography: cite.bib
-thanks: "The code and data is available at https://github.com/AhnafAlam1/Europe-and-apparel-export and replicated files are available at https://www.socialsciencereproduction.org/reproductions/8b22209f-2847-4ed8-ac83-2222520c6b5a/index"
+thanks: "The code and data is available at https://github.com/AhnafAlam1/Europe-and-apparel-export and the replicated files are available at https://www.socialsciencereproduction.org/reproductions/13e97e34-76f1-4768-b521-726c205262b6/index "
 classoption: abstract
 abstract: | 
-  Since the inception of the Everything But Arms (EBA) trade scheme, Least Developed Countries (LDCs) have experienced a surge in exports, particularly in the apparel sector. However, existing studies do not conclusively show whether this export boom can only be attributed to the EBA or if there are other underlying reasons. This paper aims to address this gap by examining the impacts of trade liberalization, factor endowments, and global demand on the export shock. The study confirms that exports increased with the implementation of the EBA scheme;it also acknowledges that additional factors played a crucial role in this export expansion. The paper has  policy-making implications, suggesting that the elimination of tariffs alone may be insufficient in stimulating exports in developing nations and emphasizes the importance of addressing various external factors that plays a role in export boom.
+  The European Union's Everything But Arms (EBA) trade scheme has led to increased exports for Least Developed Countries (LDCs), particularly in the apparel sector. However, existing studies don't conclusively attribute this export boom solely to the EBA. This paper fills this gap by examining the impacts of trade liberalization, factor endowments, and global demand on exports shock. The study confirms that EBA implementation increased exports, but recognizes other factors also played a crucial role. The paper implies that eliminating tariffs alone may not be enough to stimulate exports in developing nations and emphasizes addressing various additional factors affecting exports.
 ---
 ```{r}
 #| include: false
@@ -44,15 +44,15 @@ comtrade <- read_csv("outputs/data/comtrade.csv")
 ```
 # Introduction
 
-In 2001, the European Union launched the 'Everything But Arms' (EBA) initiative, providing tariff-and-quota-free access to its market for 47 of the world's least developed countries (LDCs), aiming to promote development through increased exports [@faber2009everything]. EBA excluded tariffs on LDC imports, except for arms, notably boosting exports from Asian LDCs to the EU [@gradeva2010role]. However, existing studies fail to suggest whether this export boom is solely attributable to EBA, or if factors like global demand, trade liberalization, and factor endowments drove the trade shift in LDCs. The paper looks to fill this gap. 
+In 2001, the European Union launched the Everything But Arms (EBA) initiative, granting tariff-and-quota-free market access to 47 of the world's least developed countries (LDCs) to boost development through increased exports [@faber2009everything]. The EBA exempted LDC imports from tariffs, except for arms, enhancing exports from Asian LDCs to the EU [@gradeva2010role]. However, existing studies don't conclusively attribute the export boom solely to the EBA, leaving uncertainties about the contributions of global demand, trade liberalization, and factor endowments to the trade shift in LDCs. The paper aims to address this gap.
 
-European nations heavily rely on apparel imports; for instance, Germany imports 95 percent of its apparel, while France, Italy, and Spain import 85 percent, 65 percent, and 55 percent, respectively [@gereffi2010global]. EBA has raised concerns over LDCs competing for trade contracts, causing decreased clothing prices benefiting EU countries. Some studies label the scheme as "more political than developmental" [@page2002new]. European dependence on apparel imports is evident as trade preferences with Myanmar remained unaffected despite crises [@pennisi2023everything]. This highlights the role of European apparel imports in driving high export volumes in LDCs.
+European nations heavily depend on apparel imports; for example, Germany imports 95 percent of its apparel, while France, Italy, and Spain import 85 percent, 65 percent, and 55 percent, respectively [@gereffi2010global]. The EBA has sparked concerns about LDCs vying for trade contracts, leading to reduced clothing prices benefiting EU countries. Some studies criticize the scheme as "more political than developmental" [@page2002new]. European reliance on apparel imports is evident as trade preferences with Myanmar remained unaffected despite human rights concerns [@pennisi2023everything]. This underscores the role of European apparel imports in driving high export volumes in LDCs.
 
-This paper uses @RAND's analysis on preferential market access, focusing on a Bangladesh case study, to establish how LDC exports evolved since EBA's introduction. The original paper highlights how using internationally sourced textiles for LDC exports leads to increased firm-level revenue growth.
+This paper uses @RAND's analysis on preferential market access, focusing on a Bangladesh case study, to establish how LDC exports evolved since the EBA's introduction. The original paper highlights how using internationally sourced textiles from LDCs leads to increased firm-level revenue growth for LDCs.
 
-Utilizing graphs and figures, this paper demonstrates how LDCs capitalized on the EBA scheme, resulting in an export boom. However, it acknowledges that factors like trade liberalization, factor endowments, and global demand also influenced the export boost. The investigation concludes that while EBA contributed to increased LDC exports, it is not the primary driver; other crucial factors play a role. This finding underscores the importance of global demand and trade liberalization for LDCs to benefit from free trade.
+Utilizing graphs and figures, this paper demonstrates how LDCs capitalized on the EBA scheme, resulting in an export boom. However, it acknowledges that factors like trade liberalization, factor endowments, and global demand also influenced the export boost. The investigation concludes that while the EBA contributed to increased LDC exports, it is not the primary driver; other crucial factors play a role. This finding underscores the importance of global demand and trade liberalization for LDCs to benefit from free trade.
 
-The paper begins with a discussion on the data sets used, followed by a Results section showcasing export increases after EBA. The subsequent Discussion section explores factors contributing to the overall trade level rise for all countries. Finally, the Conclusion section wraps up the paper with a discussion on the next iteration.
+The paper begins with a discussion on the data sets used, followed by a Results section showcasing export increases after EBA. The subsequent Discussion section explores factors contributing to the overall trade level rise for all countries, EU and LDCs alike. Finally, the Conclusion section wraps up the paper with a discussion on improvements on the next iteration of this paper.
 
 ```{r}
 #| label: tbl-1
@@ -77,7 +77,6 @@ table1 |>
 
 # The last bit of the code was taken from paper by Chloe Thierson, titled "Catching Up With Republicans: 
 # Democratic Marriage Rates Are on the Rise"
-  
 ```
 
 ```{r}
@@ -105,21 +104,21 @@ R [@R], a statistical programming language, is exclusively used in this paper. F
 
 ## Incorporating LDC dataset
 
-The raw data for `ldc` comes from Eurostat [@EU-EXTRA]. A description table for the raw data table is provided (see @tbl-1). The raw data cleaned by removing all columns, excluding HS Code, value and year, which were used to create a new column, `util`. The new column reports on utilization rate of EBA, which signifies fraction of apparel import under the EBA, relative to total apparel import from LDCs. Ultimately, the final market share data set includes three columns: year, util and variance. 
+The raw data for `ldc` comes from Eurostat [@EU-EXTRA]. A description table for the raw data table is provided (see @tbl-1). The raw data was cleaned by removing all columns, excluding HS Code, value and year, which were used to create a new column, `util`. The new column reports on utilization rate of the EBA, which signifies the fraction of apparel imported under the EBA, relative to total apparel import from LDCs. Ultimately, the final market share data set includes three columns: year, util, and variance.  
 
-Eurostat does not itself collect data. However, it relies on individual countries to report trade data through their statistical agencies [@2024]. The statistical agencies collect data from port customs. When a ship carrying import product arrives at an EU country, the customs authorities notes down all the pertinent information regarding that shipment, including filling out all the variables in @tbl-1. Once compiled, each EU member states reports these data to the Eurostat for publishing.
+Eurostat does not itself collect data. Rather, it relies on individual countries to report trade data through their statistical agencies [@2024]. The statistical agencies collect data from port customs. When a ship carrying imported product arrives at an EU country, the customs authorities record all the pertinent information regarding that shipment, including filling out all the variables in @tbl-1. Once compiled, each EU member states reports these data to the Eurostat for publishing.
 
 ## Mixing in Bangladesh, Cambodia and Nepal data
 
-The resulting `ldc` data set does not include country-specific information. To incorporate country-specific information, data sets `bgd1`, `cmbd1` and `nep1` were created, relaying information on Bangladesh, Cambodia and Nepal, respectively. The data sets are created by merging `ldc` data with the raw data, using year column. The resulting data sets reports country-specific utilization rate and year, where utilization rate now signifies fraction of EU apparel import from a nation, relative to total EU apparel import from that country [@RAND], and separates exports between knit material and woven materials. 
+The `ldc` data set lacks country-specific information. To remedy this, country-specific data sets—bgd1 for Bangladesh, cmbd1 for Cambodia, and nep1 for Nepal—are generated by merging `ldc` data with raw data based on the year and column variables. These data sets provide information on the utilization rate and year for each country. The utilization rate now represents the fraction of EU apparel imported from a nation relative to the total EU apparel imported from that country [@RAND]. Additionally, the data separates between LDC exports of knit and woven materials.
 
 ## Information of UN Comtrade
 
-Market share data set is created using UN Comtrade's WITS database [@WITS]. This data set is provided by Tobias Systma for replication purposes. The raw data set reported on various aspects, with key information being export differences between China and LDCs for apparel export between 2002 and 2018. The cleaned data consists of columns reporting years, value of apparel export, value of total export and share of export, which is the ratio of apparel export to total export for LDCs and China. For visualization, please see @fig-1. 
+The Market share data set, derived from UN Comtrade's WITS database [@WITS] and provided by Tobias Systma for replication. It focuses on export differences between China and LDCs in apparel exports from 2002 to 2018. The cleaned data includes columns for years, the value of apparel export, total export value, and the share of export—representing the ratio of apparel exports to total exports for both LDCs and China. For visualization, see @fig-1. 
 
-WITS database is further used to acquire information on LDCs export of apparel to high-earning OECD countries. The methodology and type of information is similar to that Comtrade data used for market share dataset. The dataset is restricted to 2018 due to the onset of the COVID-19 pandemic, which resulted in shutdown of non-essential trade.
+WITS database is also utilized to gather information on LDCs’ apparel exports to high-earning OECD countries. This dataset mirrors the methodology and information used by market share dataset from Comtrade database. The dataset is limited to 2018 due to the COVID-19 pandemic, which led to the shutdown of non-essential trade.
 
-UN Comtrade database, just like Eurostat, does not collect these data themselves, but rather relies on each individual countries to provide them with trade data, among other data sets. Both importing and exporting country collect data through customs departments, including information on variables like HS Code, valuation in USD, importing country, among others variables. If a country fails to provide data, or if there are missing values in the data set, then missing values are estimated by extrapolating from two adjacent periods [@un]. UN Comtrade database fills these missing gaps every two weeks. 
+Similar to Eurostat, the UN Comtrade database doesn't collect data directly; individual countries provide trade data. Both importing and exporting countries collect data through customs departments, including variables like HS Code, valuation in USD, and the importing country. If a country fails to provide data or if there are missing values, the UN Comtrade database estimates missing values by extrapolating from two adjacent periods [@un]. Missing gaps are filled every two weeks in the database.
 
 ```{r}
 #| warning: false
@@ -225,26 +224,25 @@ print(p3)
 
 ## EBA Impact on LDC Exports
 
-@fig-2 replicates Figure 1 in the original paper, illustrating the EBA utilization rate (2001-2018). This rate signifies the proportion of apparel imports from LDCs entering Europe under EBA. Despite a generally increasing trend, a 20 percent uptick occurred in 2010-2011 [@EU-EXTRA], due to EBA policy changes relaxing local fabric requirements.
+@fig-2 replicates Figure 1, illustrating the EBA utilization rate (2001-2018). This rate signifies the proportion of apparel imports from LDCs entering Europe under the EBA. Despite a generally increasing trend, a 20 percent uptick occurred in 2010-2011 [@EU-EXTRA], due to EBA policy changes relaxing local fabric requirements.
 
 ## China's Apparel Export Dominance
 
-@tbl-2 summarizes the m_s dataset from [@UNComtrade], emphasizing differences in apparel exports between China and all other LDCs. The table underscores substantial disparities in apparel export values, with China making up majority share of the apparel export industry. @fig-1, a reproduction of Figure 3, highlights this point. China's market share surged by 33 percent, compared to LDCs, which rose from 3 percent in 2002 to around 8 percent in 2018.
+@tbl-2 summarizes the m_s dataset from [@UNComtrade], emphasizing differences in apparel exports between China and all LDCs. The table underscores substantial disparities in apparel export values, with China making up majority share of the apparel export industry. @fig-1, a reproduction of Figure 3, highlights this point. China's market share surged by 33 percent, compared to LDCs, which rose from 3 percent in 2002 to around 8 percent in 2018.
 
 ## Export Disparities: Woven vs. Knitted Materials
 
-@fig-3, replicating Figure 4 of the original paper, depicts Bangladeshi apparel export utilization rates (2001-2018). The rate represents the ratio of EU imports under EBA to total EU imports from Bangladesh, irrespective of EBA. While knit apparel maintains a near 100 percent utilization rate, woven apparel saw a shift from roughly 20 percent in 2001 to nearly 100 percent by end-2018, with a notable increase in 2010-2011.
+@fig-3, replicating Figure 4 of the original paper, depicts Bangladeshi apparel export utilization rates (2001-2018). The rate represents the ratio of EU imports under the EBA to total EU imports from Bangladesh, irrespective of the EBA. While knit apparel maintains a near 100 percent utilization rate, woven apparel saw a shift from roughly 20 percent in 2001 to nearly 100 percent by end-2018, with a notable increase in 2010-2011.
 
-@fig-4 and @fig-5 extends the graphical framework in @fig-3, focusing on Cambodia and Nepal, respectively. Similarities include close to 100 percent utilization rates for both woven and knit apparel imports from 2011 onwards. Contrasting trends are evident, such as Cambodia consistently maintaining near-100 percent utilization for woven material, unlike Bangladesh and Nepal. Nepal and Bangladesh share a shift in woven apparel around 2010-2011, more pronounced in Bangladesh, while Cambodia experiences a shift in knit apparel imports around 2010-11.
+@fig-4 and @fig-5 extends the graphical framework in @fig-3, focusing on Cambodia and Nepal, respectively. Similarities include close to 100 percent utilization rates for both woven and knit apparel imports from 2011 onwards. Contrasting trends are evident, such as Cambodia consistently maintaining near-100 percent utilization for woven material, unlike Bangladesh and Nepal. Nepal and Bangladesh experienced a shift in woven apparel around 2010-2011, more pronounced in Bangladesh, while Cambodia experienced a shift in knit apparel imports around 2010-11.
 
 ## Apparel export to high-earning OECD countries
 
-@fig-6 depicts value of LDC export to high-income OECD countries. The graph separates the knit material, with ProductCode 61 and ProductCode 62, for woven material. It show that apparel export from LDCs have been steadily increasing since 2001, with a slowdown in 2014. This is due to economic downturn at export destinations, causing apparel consumption to decrease by 7.92 percent [@islam_2016]. 
-
+@fig-6 depicts value of LDC export to high-income OECD countries. The graph separates the knit material, with ProductCode 61 and ProductCode 62, for woven material. It shows that apparel exports from LDCs have been steadily increasing since 2001, with a slowdown in 2014. This slowdown is due to economic downturn at export destinations, causing apparel consumption to decrease by 7.92 percent [@islam_2016].
 
 # Discussion
 
-@fig-2 suggests that LDCs effectively utilized the EBA scheme, resulting in a substantial increase in the utilization rate post-implementation. Notably, Asian LDCs such as Bangladesh, Cambodia, and Nepal witnessed a surge in apparel exports in both knit and woven sectors. However, the market share of LDC exports significantly trailed behind China, as depicted in @fig-1. Yet, the data leaves unanswered whether the EBA was the exclusive reason for the upswing in LDC export levels or if other factors played a role. This is especially noticeable when we consider @fig-6, which points out how LDC exports increased to all high-earning OECD countries and not just to destinations that fall under EBA scheme. This rationale suggests there must be underlying reasons that may have caused trade to increase. 
+@fig-2 suggests that LDCs effectively utilized the EBA scheme, resulting in a substantial increase in the utilization rate post-implementation. Notably, Asian LDCs such as Bangladesh, Cambodia, and Nepal witnessed a surge in apparel exports in both knit and woven sectors. However, the market share of LDC exports significantly trailed behind China, as depicted in @fig-1. Nonetheless, the data leaves unanswered the question of whether the EBA was the exclusive reason for the upswing in LDC export levels or if other factors played a role. This is especially noticeable when we consider @fig-6, which points out how LDC exports increased to all high-earning OECD countries and not just to destinations that fall under the EBA scheme. This rationale suggests there must be additional underlying reasons that caused trade to increase. 
 
 ## Exploring Trade Liberalization's Impact on Export Growth
 
@@ -254,15 +252,15 @@ The concept of trade liberalization strongly suggests that the surge in LDC expo
 
 ## Global Demand as a Key Player in Export Dynamics
 
-An essential factor influencing export levels is the global demand for resources. Global demand, especially during financial crises, tends to fluctuate, leading to price volatility adversely affects a country's exports [@meyn2009implications]. Studies indicate that during global economic challenges, there is a substantial decrease in exports, with estimates suggesting a 20 percent decline in export due to financial factors [@amitiweinstein2011]. This phenomenon extends to LDCs, as financial crises in the global North often triggers reduced demand for exports from LDCs [@willenbockel2009global]. All these factors underscore how export levels, not confined solely to the global North, are susceptible to influences beyond schemes like the EBA.
+An essential factor influencing export levels is the global demand for resources. Global demand, especially during financial crises, tends to fluctuate, leading to price volatility adversely affecting a country's exports [@meyn2009implications]. Studies indicate that during global economic challenges, there is a substantial decrease in exports, with estimates suggesting a 20 percent decline in export due to financial factors [@amitiweinstein2011]. This phenomenon extends to LDCs, as financial crises in the global North often triggers reduced demand for exports from LDCs [@willenbockel2009global]. All these factors underscore how export levels, not confined solely to the global North, are susceptible to influences beyond schemes like the EBA.
 
 ## Factor endownments and export
 
-A nation's factor endowments play significant role in determining a country fares from trading aspects. Broadly speaking, factor endowments are used to describe factors like land, capital, natural resources that a country can use to produce goods and subsequently export them to other places. Existing research suggests that this seems to the case for LDCs as both physical and human capital are positive determinants of a state's export [@coughlinfabel1988]. Therefore, this further highlights that factor endowments plays a crucial role in export boom. 
+A nation's factor endowments significantly influence its trade performance. Factor endowments encompasses resources such as land, capital, and natural resources available to a country. Research, including @coughlinfabel1988, indicates that this holds true for Least Developed Countries (LDCs), where both physical and human capital positively affect exports. @corvers1997explaining expand on this using the Heckscher-Ohlin-Vanek (HOV) model, which posits that countries export the factors they have in abundance and import scarce ones. Their study, integrating country-specific human capital endowments into the HOV model, reveals a positive impact of high-skilled labor and technological knowledge on trade [@corvers1997explaining]. This underscores the pivotal role of factor endowments in driving export growth.
 
 ## Limitations
 
-The current data lacks information on sectors beyond apparel in trade. The Everything But Arms (EBA) agreement eliminates tariffs on imports, excluding arms. However, the absence of data on crucial sectors like agriculture and manufactured goods prevents the paper from establishing whether, post EBA implementation, only apparel exports increased or if a similar trend exists across all sectors. The subsequent version of this paper must integrate data from other sectors for a more robust analysis. This will help determine if EBA uniformly impacted trade positively or if the influence is specific to the apparel sector.
+The current data lacks information on trade sectors beyond apparel in trade. The Everything But Arms (EBA) agreement eliminates tariffs on imports, excluding arms. However, the absence of data on crucial sectors like agriculture and manufactured goods prevents the paper from establishing whether, post EBA implementation, only apparel exports increased or if a similar trend exists across all sectors. The subsequent version of this paper must integrate data from other sectors for a more robust analysis. This will help determine if EBA uniformly impacted trade positively or if the influence is specific to the apparel sector.
 
 Although the paper acknowledges the roles of trade liberalization, global demand, and factor endowments in export demand, it lacks corresponding data. Furthermore, the investigation lacks regression models to confirm or rule out these factors as core reasons for the overall increase in export trade. Future researchers should address these gaps in the next version of the paper.
 ```{r}
@@ -294,7 +292,8 @@ print(com)
 ```
 # Conclusion
 
-The study looks to examine the impact of the Everything But Arms (EBA) policy on trade, with a focus on exports in the least developed countries (LDCs). Utilizing data from @RAND, the research confirms that exports, particularly in the apparel sector, have increased since the policy's initiation in 2001. However, the paper highlights that LDCs' apparel exports have not only risen to European countries but also to all advanced economies. Therefore, it can be inferred that external factors such as trade liberalization, global demand, and factor endowments may also contribute to the growth in exports. Consequently, attributing the export surge in LDCs solely to the EBA policy may not be sufficient. However, the study's limitation lies in the absence of regression analysis and data on sectors other than apparel, and that prevents us from conclusively report that global demand, factor endowments and trade liberlization are the exclusive drivers of the trade shock.
+The study looks to examine the impact of the Everything But Arms (EBA) policy on trade, with a focus on exports in the least developed countries (LDCs). Utilizing data from @RAND, the research confirms that exports, particularly in the apparel sector, have increased since the policy's initiation in 2001. However, the paper highlights that LDCs' apparel exports have not only risen to European countries but also to all advanced economies. Therefore, it can be inferred that external factors such as trade liberalization, global demand, and factor endowments may also contribute to the growth in exports. Consequently, attributing the export surge in LDCs solely to the EBA policy may not be sufficient. However, the study's limitation lies in the absence of regression analysis and data on sectors other than apparel, and that prevents us from definitively concluding that global demand, factor endowments and trade liberlization are the exclusive drivers of the trade shock.
+
 
 
 \newpage
