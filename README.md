@@ -1,8 +1,8 @@
-# Apparel-exports-in-LDCs
+# Apparel exports in LDCs
 
 # Overview
 
-Based on the research paper by Systma (2022), I try to analyze the whether Everything But Arms (EBA) is driving force behind export boom in LDCs, or if there are other mitigating reasons hehind this phenomena.
+Based on the research paper by Systma (2022), I try to analyze the whether Everything But Arms (EBA) is driving force behind export boom in LDCs, or if there are other mitigating reasons behind this phenomena.
 
 The original paper can be found [here](https://www-aeaweb-org.myaccess.library.utoronto.ca/articles?id=10.1257%2Fpol.20200257): Improving Preferential Market Access through Rules of Origin: Firm-Level Evidence from Bangladesh.
 
@@ -10,8 +10,10 @@ The original paper can be found [here](https://www-aeaweb-org.myaccess.library.u
 
 # Guide
 
-The raw data set can found under the `data` file under input folder, while cleaned data can be retrieved from under `data` in outputs folder.
+- The raw data set can found under the `data` file under input folder, while cleaned data can be retrieved from under `data` in outputs folder.
 
-The pdf and .qmd version of the paper, `paper2.pdf` & `paper2.qmd` can be found in the directory.  
+- The pdf and .qmd version of the paper, `paper2.pdf` & `paper2.qmd` can be found inside the outputs folder, under the paper bin.  
+
+- sketches for the graphs can be found sketches bin, in the inputs folder.
 
 
